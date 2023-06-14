@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <!-- css -->
+  <link rel="stylesheet" href="css/estilos.css"> 
+  
+      <!-- iconos -->
+  <script src="https://kit.fontawesome.com/a41162c59d.js" crossorigin="anonymous"></script>
+
+  <title>CV personal</title>
+
+
+</head>
+
+<body>
+    <h1>Curriculum</h1>
+
+    <button id="btn2" class="btn btn-secondary"><i class="fa-solid fa-sun"></i></button>
+    <button id="btn3" class="btn btn-secondary"><i class="fa-solid fa-moon"></i></button>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conocimientos.html">conocimientos</a></li>
+                <li><a href="cv.html">Curriculum</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">idioma  <i class="fa-solid fa-bars"></i></a>
+                <div class="dropdown-menu">
+                    <div id="google_translate_element" class="google"></div>
+
+                    <script type="text/javascript">
+                     function googleTranslateElementInit() {
+                     new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,es,fr,it,pt,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                      }
+                    </script>
+
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h3>En esta parte de la pagina se puede ver el cv de forma online y más abajo se lo puede descargar</h3>
+
+    <br>
+    
+    <h4>El cv:</h4>
+    
+
+
+    <img src="img/cv.jpg" alt="cv" width="800" height="1000">
+
+    <br>
+    
+    <button id="boton-cv" class="btn btn-primary">link de descarga</button>
+    
+
+    <div class="cv-contenedor">
+      <div class="link-cv" >
+        <a  href="http://127.0.0.1:5500/img/cv.jpg" download="http://127.0.0.1:5500/img/cv.jpg" target="_blank" ><p>CV:     <i class="fa-regular fa-file-pdf"></p></i></a>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <h3>Contactame</h3>
+      <p>
+          <a class="linkedin" href="https://www.linkedin.com/in/valen-jimeno-412873279" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+          -
+          <a class="wpp" href="img/link_wpp.jpeg" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          -
+          <a class="github" href="https://github.com/valenjb" target="_blank"><i class="fa-brands fa-github"></i></a>
+          -
+          valenjimeonb@gmail.com
+      </p> 
+    </footer>
+
+
+
+    <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/jqeury.js"></script>
+
+</body>
+
+</html>
